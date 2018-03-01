@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111F1560204857C000865594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F155F204857C000865594 /* AppDelegate.swift */; };
+		111F1562204857C000865594 /* FrontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1561204857C000865594 /* FrontController.swift */; };
+		111F1565204857C000865594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111F1563204857C000865594 /* Main.storyboard */; };
+		111F1567204857C000865594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111F1566204857C000865594 /* Assets.xcassets */; };
+		111F156A204857C000865594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111F1568204857C000865594 /* LaunchScreen.storyboard */; };
+		111F157320485FBF00865594 /* FrontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1561204857C000865594 /* FrontController.swift */; };
+		111F157420485FBF00865594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F155F204857C000865594 /* AppDelegate.swift */; };
+		111F157720485FBF00865594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111F1568204857C000865594 /* LaunchScreen.storyboard */; };
+		111F157820485FBF00865594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111F1566204857C000865594 /* Assets.xcassets */; };
+		111F157920485FBF00865594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111F1563204857C000865594 /* Main.storyboard */; };
+		111F15812048637600865594 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111F15802048637600865594 /* CFNetwork.framework */; };
+		118291192048727A003F8105 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118291182048727A003F8105 /* LoginViewController.swift */; };
+		1182911A20487280003F8105 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118291182048727A003F8105 /* LoginViewController.swift */; };
+		1182911C20487293003F8105 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182911B20487293003F8105 /* RegisterViewController.swift */; };
+		1182911D20487293003F8105 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182911B20487293003F8105 /* RegisterViewController.swift */; };
+		1182911F204872B8003F8105 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182911E204872B8003F8105 /* HomeViewController.swift */; };
+		11829120204872B8003F8105 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182911E204872B8003F8105 /* HomeViewController.swift */; };
+		4EADB7FD1554EF5402C2D40C /* Pods_calabashCucumber_cal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6BBB81EF63C5D4A320F4DE /* Pods_calabashCucumber_cal.framework */; };
+		6F4E94C31E26B0B3A6323A35 /* Pods_calabashCucumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED812DA55B40DB771D4FF7C /* Pods_calabashCucumber.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		111F155C204857C000865594 /* calabashCucumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calabashCucumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111F155F204857C000865594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		111F1561204857C000865594 /* FrontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontController.swift; sourceTree = "<group>"; };
+		111F1564204857C000865594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		111F1566204857C000865594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		111F1569204857C000865594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		111F156B204857C000865594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111F157D20485FBF00865594 /* calabashCucumber-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calabashCucumber-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		111F15802048637600865594 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		118291182048727A003F8105 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1182911B20487293003F8105 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1182911E204872B8003F8105 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		144CBBEBFF992829100D4882 /* Pods-calabashCucumber-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calabashCucumber-cal.release.xcconfig"; path = "Pods/Target Support Files/Pods-calabashCucumber-cal/Pods-calabashCucumber-cal.release.xcconfig"; sourceTree = "<group>"; };
+		3C6BBB81EF63C5D4A320F4DE /* Pods_calabashCucumber_cal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calabashCucumber_cal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5164C5520DDAD9DFE3B3D7A4 /* Pods-calabashCucumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calabashCucumber.release.xcconfig"; path = "Pods/Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber.release.xcconfig"; sourceTree = "<group>"; };
+		9706073F44EB9C8B5DD4CD1C /* Pods-calabashCucumber-cal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calabashCucumber-cal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-calabashCucumber-cal/Pods-calabashCucumber-cal.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED812DA55B40DB771D4FF7C /* Pods_calabashCucumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calabashCucumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49B3B6FB0AEC6C483DDAE21 /* Pods-calabashCucumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calabashCucumber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111F1559204857C000865594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4E94C31E26B0B3A6323A35 /* Pods_calabashCucumber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F157520485FBF00865594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F15812048637600865594 /* CFNetwork.framework in Frameworks */,
+				4EADB7FD1554EF5402C2D40C /* Pods_calabashCucumber_cal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111F1553204857C000865594 = {
+			isa = PBXGroup;
+			children = (
+				111F155E204857C000865594 /* calabashCucumber */,
+				111F155D204857C000865594 /* Products */,
+				111F157F2048637500865594 /* Frameworks */,
+				7780C83AC7FDD138B7987676 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		111F155D204857C000865594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111F155C204857C000865594 /* calabashCucumber.app */,
+				111F157D20485FBF00865594 /* calabashCucumber-cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111F155E204857C000865594 /* calabashCucumber */ = {
+			isa = PBXGroup;
+			children = (
+				111F155F204857C000865594 /* AppDelegate.swift */,
+				111F1561204857C000865594 /* FrontController.swift */,
+				111F1563204857C000865594 /* Main.storyboard */,
+				111F1566204857C000865594 /* Assets.xcassets */,
+				111F1568204857C000865594 /* LaunchScreen.storyboard */,
+				111F156B204857C000865594 /* Info.plist */,
+				118291182048727A003F8105 /* LoginViewController.swift */,
+				1182911B20487293003F8105 /* RegisterViewController.swift */,
+				1182911E204872B8003F8105 /* HomeViewController.swift */,
+			);
+			path = calabashCucumber;
+			sourceTree = "<group>";
+		};
+		111F157F2048637500865594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				111F15802048637600865594 /* CFNetwork.framework */,
+				9ED812DA55B40DB771D4FF7C /* Pods_calabashCucumber.framework */,
+				3C6BBB81EF63C5D4A320F4DE /* Pods_calabashCucumber_cal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7780C83AC7FDD138B7987676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D49B3B6FB0AEC6C483DDAE21 /* Pods-calabashCucumber.debug.xcconfig */,
+				5164C5520DDAD9DFE3B3D7A4 /* Pods-calabashCucumber.release.xcconfig */,
+				9706073F44EB9C8B5DD4CD1C /* Pods-calabashCucumber-cal.debug.xcconfig */,
+				144CBBEBFF992829100D4882 /* Pods-calabashCucumber-cal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111F155B204857C000865594 /* calabashCucumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111F156E204857C000865594 /* Build configuration list for PBXNativeTarget "calabashCucumber" */;
+			buildPhases = (
+				49CCBDCA99A6CB5231A2C769 /* [CP] Check Pods Manifest.lock */,
+				111F1558204857C000865594 /* Sources */,
+				111F1559204857C000865594 /* Frameworks */,
+				111F155A204857C000865594 /* Resources */,
+				13956A6C53FEC5D9E52A5B76 /* [CP] Embed Pods Frameworks */,
+				8EF55EFAC4A3BC3BCFF89D01 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calabashCucumber;
+			productName = calabashCucumber;
+			productReference = 111F155C204857C000865594 /* calabashCucumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111F157120485FBF00865594 /* calabashCucumber-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111F157A20485FBF00865594 /* Build configuration list for PBXNativeTarget "calabashCucumber-cal" */;
+			buildPhases = (
+				D15F8B987E1DCF50D6151F17 /* [CP] Check Pods Manifest.lock */,
+				111F157220485FBF00865594 /* Sources */,
+				111F157520485FBF00865594 /* Frameworks */,
+				111F157620485FBF00865594 /* Resources */,
+				FC880965B63129016F084685 /* [CP] Embed Pods Frameworks */,
+				EF670B0BDF67F46DE26C72A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "calabashCucumber-cal";
+			productName = calabashCucumber;
+			productReference = 111F157D20485FBF00865594 /* calabashCucumber-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111F1554204857C000865594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ilan B";
+				TargetAttributes = {
+					111F155B204857C000865594 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					111F157120485FBF00865594 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 111F1557204857C000865594 /* Build configuration list for PBXProject "calabashCucumber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111F1553204857C000865594;
+			productRefGroup = 111F155D204857C000865594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111F155B204857C000865594 /* calabashCucumber */,
+				111F157120485FBF00865594 /* calabashCucumber-cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111F155A204857C000865594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F156A204857C000865594 /* LaunchScreen.storyboard in Resources */,
+				111F1567204857C000865594 /* Assets.xcassets in Resources */,
+				111F1565204857C000865594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F157620485FBF00865594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F157720485FBF00865594 /* LaunchScreen.storyboard in Resources */,
+				111F157820485FBF00865594 /* Assets.xcassets in Resources */,
+				111F157920485FBF00865594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13956A6C53FEC5D9E52A5B76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49CCBDCA99A6CB5231A2C769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calabashCucumber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF55EFAC4A3BC3BCFF89D01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15F8B987E1DCF50D6151F17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calabashCucumber-cal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF670B0BDF67F46DE26C72A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calabashCucumber-cal/Pods-calabashCucumber-cal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC880965B63129016F084685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calabashCucumber-cal/Pods-calabashCucumber-cal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111F1558204857C000865594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182911F204872B8003F8105 /* HomeViewController.swift in Sources */,
+				118291192048727A003F8105 /* LoginViewController.swift in Sources */,
+				111F1562204857C000865594 /* FrontController.swift in Sources */,
+				111F1560204857C000865594 /* AppDelegate.swift in Sources */,
+				1182911C20487293003F8105 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F157220485FBF00865594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11829120204872B8003F8105 /* HomeViewController.swift in Sources */,
+				1182911A20487280003F8105 /* LoginViewController.swift in Sources */,
+				111F157320485FBF00865594 /* FrontController.swift in Sources */,
+				111F157420485FBF00865594 /* AppDelegate.swift in Sources */,
+				1182911D20487293003F8105 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		111F1563204857C000865594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111F1564204857C000865594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		111F1568204857C000865594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111F1569204857C000865594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		111F156C204857C000865594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		111F156D204857C000865594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		111F156F204857C000865594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49B3B6FB0AEC6C483DDAE21 /* Pods-calabashCucumber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = calabashCucumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calabash.cucumber.ilan.calabashCucumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		111F1570204857C000865594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5164C5520DDAD9DFE3B3D7A4 /* Pods-calabashCucumber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = calabashCucumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calabash.cucumber.ilan.calabashCucumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		111F157B20485FBF00865594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9706073F44EB9C8B5DD4CD1C /* Pods-calabashCucumber-cal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = calabashCucumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calabash.cucumber.ilan.calabashCucumber-cal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		111F157C20485FBF00865594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144CBBEBFF992829100D4882 /* Pods-calabashCucumber-cal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = calabashCucumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calabash.cucumber.ilan.calabashCucumber-cal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111F1557204857C000865594 /* Build configuration list for PBXProject "calabashCucumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F156C204857C000865594 /* Debug */,
+				111F156D204857C000865594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111F156E204857C000865594 /* Build configuration list for PBXNativeTarget "calabashCucumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F156F204857C000865594 /* Debug */,
+				111F1570204857C000865594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111F157A20485FBF00865594 /* Build configuration list for PBXNativeTarget "calabashCucumber-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F157B20485FBF00865594 /* Debug */,
+				111F157C20485FBF00865594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111F1554204857C000865594 /* Project object */;
+}
