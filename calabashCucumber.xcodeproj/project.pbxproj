@@ -24,6 +24,8 @@
 		1182911D20487293003F8105 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182911B20487293003F8105 /* RegisterViewController.swift */; };
 		1182911F204872B8003F8105 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182911E204872B8003F8105 /* HomeViewController.swift */; };
 		11829120204872B8003F8105 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182911E204872B8003F8105 /* HomeViewController.swift */; };
+		11F516E220494B24008D68AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F516E120494B24008D68AA /* Message.swift */; };
+		11F516E320494B24008D68AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F516E120494B24008D68AA /* Message.swift */; };
 		4EADB7FD1554EF5402C2D40C /* Pods_calabashCucumber_cal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6BBB81EF63C5D4A320F4DE /* Pods_calabashCucumber_cal.framework */; };
 		6F4E94C31E26B0B3A6323A35 /* Pods_calabashCucumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED812DA55B40DB771D4FF7C /* Pods_calabashCucumber.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,7 @@
 		118291182048727A003F8105 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1182911B20487293003F8105 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1182911E204872B8003F8105 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		11F516E120494B24008D68AA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		144CBBEBFF992829100D4882 /* Pods-calabashCucumber-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calabashCucumber-cal.release.xcconfig"; path = "Pods/Target Support Files/Pods-calabashCucumber-cal/Pods-calabashCucumber-cal.release.xcconfig"; sourceTree = "<group>"; };
 		3C6BBB81EF63C5D4A320F4DE /* Pods_calabashCucumber_cal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calabashCucumber_cal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5164C5520DDAD9DFE3B3D7A4 /* Pods-calabashCucumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calabashCucumber.release.xcconfig"; path = "Pods/Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 				118291182048727A003F8105 /* LoginViewController.swift */,
 				1182911B20487293003F8105 /* RegisterViewController.swift */,
 				1182911E204872B8003F8105 /* HomeViewController.swift */,
+				11F516E120494B24008D68AA /* Message.swift */,
 			);
 			path = calabashCucumber;
 			sourceTree = "<group>";
@@ -237,9 +241,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,6 +344,7 @@
 				1182911F204872B8003F8105 /* HomeViewController.swift in Sources */,
 				118291192048727A003F8105 /* LoginViewController.swift in Sources */,
 				111F1562204857C000865594 /* FrontController.swift in Sources */,
+				11F516E220494B24008D68AA /* Message.swift in Sources */,
 				111F1560204857C000865594 /* AppDelegate.swift in Sources */,
 				1182911C20487293003F8105 /* RegisterViewController.swift in Sources */,
 			);
@@ -349,6 +357,7 @@
 				11829120204872B8003F8105 /* HomeViewController.swift in Sources */,
 				1182911A20487280003F8105 /* LoginViewController.swift in Sources */,
 				111F157320485FBF00865594 /* FrontController.swift in Sources */,
+				11F516E320494B24008D68AA /* Message.swift in Sources */,
 				111F157420485FBF00865594 /* AppDelegate.swift in Sources */,
 				1182911D20487293003F8105 /* RegisterViewController.swift in Sources */,
 			);

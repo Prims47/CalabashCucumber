@@ -41,6 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    class func getDelegate() -> AppDelegate? {
+        if let delegate = UIApplication.shared.delegate as? AppDelegate {
+            return delegate
+        }
 
+        return nil
+    }
 }
 

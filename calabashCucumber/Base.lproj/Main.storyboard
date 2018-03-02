@@ -96,7 +96,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J0U-bf-GlE">
                                 <rect key="frame" x="16" y="310" width="343" height="30"/>
@@ -106,7 +106,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mLg-HX-qGP">
                                 <rect key="frame" x="16" y="379" width="343" height="30"/>
@@ -116,7 +116,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Db-DK-r5h">
                                 <rect key="frame" x="152" y="577" width="71" height="30"/>
@@ -125,6 +125,9 @@
                                     <constraint firstAttribute="width" constant="71" id="egT-Kf-0Q3"/>
                                 </constraints>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="RegisterAction" destination="80h-Z7-jjF" eventType="touchUpInside" id="QwH-xv-Lr2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20f-dQ-7si">
                                 <rect key="frame" x="163" y="623" width="49" height="30"/>
@@ -158,6 +161,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4UT-ao-FqH"/>
                     </view>
+                    <connections>
+                        <outlet property="copyPasswordTextField" destination="mLg-HX-qGP" id="RDI-Y1-LWs"/>
+                        <outlet property="emailTextField" destination="fiZ-j8-fhn" id="TOG-r5-TZf"/>
+                        <outlet property="passwordTextField" destination="J0U-bf-GlE" id="QOu-HK-Lfl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KAZ-Cu-rYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -188,7 +196,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FN1-Lu-YHz">
                                 <rect key="frame" x="16" y="292" width="343" height="30"/>
@@ -198,7 +206,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkQ-tt-PNO">
                                 <rect key="frame" x="164" y="562" width="46" height="30"/>
@@ -207,6 +215,9 @@
                                     <constraint firstAttribute="width" constant="46" id="fsW-sE-e6K"/>
                                 </constraints>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="gP8-6y-2LD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thr-Ol-D45">
                                 <rect key="frame" x="163" y="617" width="49" height="30"/>
@@ -237,6 +248,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextfield" destination="U0O-on-HKm" id="GMK-EI-T1Q"/>
+                        <outlet property="passwordTextField" destination="FN1-Lu-YHz" id="qM2-mZ-SdV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -245,7 +260,7 @@
         <!--Home View Controller-->
         <scene sceneID="CWG-ku-adD">
             <objects>
-                <viewController id="O2Y-qS-zJG" customClass="HomeViewController" customModule="calabashCucumber" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="O2Y-qS-zJG" customClass="HomeViewController" customModule="calabashCucumber" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oHI-MU-Wwe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

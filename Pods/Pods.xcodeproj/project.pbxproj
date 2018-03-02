@@ -7,61 +7,231 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24B8D55FACFCDF9EB9F67F3D354CB771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		66510198289B209C5C78B92EE7896AE9 /* Pods-calabashCucumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2783A2D3FAA79A15D81EE70805D04311 /* Pods-calabashCucumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		778E52043AD55CBDC8F9EECBD44BD35B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0040A80B045493100253F5F8EFE3D6A7 /* infoIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = A296E632113DE613E042B1BE3869DAE5 /* infoIconLight.png */; };
+		0558501D9850571D13702D310511D70B /* SwiftMessages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02BCED92AA2D984DDC1EEAD0826B3407 /* SwiftMessages.bundle */; };
+		0BC345E21DD782473AE9246ED747BAFB /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2955FFF7E114B9AE4FAD4060BECFD5AD /* TabView.xib */; };
+		1494C2893D9AB12B5E5987040AE2C355 /* errorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02BE56E6E9282923D80F769F5EC56F5B /* errorIcon@2x.png */; };
+		17606F5BA09C9286A7E038C40FAF8568 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014FB3BA6F8E2F486EA73F6BD95F74B2 /* Animator.swift */; };
+		17C44D965BF13BA68987D9AE9AB43521 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9240FB65BA4EFD50ED51AB49526EB63 /* UIViewController+Utils.swift */; };
+		1C35A6BB4B5C5ABE483A7AF8B568798E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D87A89C6FEAF20C843CFBD52EEDD38 /* MessageView.swift */; };
+		2D3AEFC212685A491057374D28B21BAD /* successIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5328A021B08675885199E4984C2B8EE5 /* successIcon@2x.png */; };
+		2DFFD1D1CF58D077979E86A8D9D2CC90 /* infoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 819569A8954F8AB0362A39D9F6DCD1FA /* infoIcon@2x.png */; };
+		323F537AC208483D0B59ED0291EE0046 /* infoIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B3E33186993A370F8DA6B0AC3CC65C /* infoIconLight@3x.png */; };
+		334E7BDB71A69B1B8C422D52A9F901B0 /* infoIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = D9BCEF8EDCCFEB2D9ACDC2FC58C2D5F9 /* infoIconSubtle.png */; };
+		344203CAFF2E1AEF58890EF6F1B97C0E /* PassthroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57605CC969D83B2C4A2160102707C033 /* PassthroughWindow.swift */; };
+		344C29278476203EB802B5A1FFD59154 /* infoIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D10ECA73B12981E3E13B160CF1FDDCF /* infoIconSubtle@3x.png */; };
+		36BEB1CE2AEFC23A9FA1245DF60975EA /* warningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A09EF703DC5EB741DDB39B63B9B86B02 /* warningIcon.png */; };
+		3749B7F6F12DF205FB6D48AA27BAD416 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F74E6C44DE2402BE29A17EDE03447D /* Theme.swift */; };
+		3BE5EC95154BB9518014156A6EC783C4 /* errorIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C96345DE750BC49F280C6D36C6C89 /* errorIconLight@3x.png */; };
+		3CAE1FC37C4A1264F66BACC58538C8C7 /* warningIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 97A77C00C415685DA31A0BB5A781FA70 /* warningIconLight.png */; };
+		3FD48AB45DE4BEC8EA8DC8C9144C90EE /* infoIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6FDD8D88F46BAB717ABC31121D9E3C /* infoIconSubtle@2x.png */; };
+		481FA77FCFD6FAD3A38E642275E3141B /* successIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 681884A4B092E59A9BC066695E6E52DB /* successIconLight@2x.png */; };
+		48ECC3818AE0227EDB427873034B03B8 /* AccessibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E0204CE973E810B538CED8FF4003D /* AccessibleMessage.swift */; };
+		498870EAB85875767C94A742E07C8EDF /* errorIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD510A92F77F02B68FA51A336BD3E28 /* errorIconSubtle@2x.png */; };
+		4B4F69966BF46DE3EFD4DD64D03BF69F /* PhysicsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593EEAE612A081959AB86A79953A6E0 /* PhysicsAnimation.swift */; };
+		4FFAC9B5884511736B84AAE690604DDD /* SwiftMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8600750C47B6BF10273A2E80CE9475AF /* SwiftMessages.swift */; };
+		54F2E03E1DA63447A507C0D49E9CD6A3 /* successIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B543AEC0EEC63FE114195C9C40DF6A /* successIcon.png */; };
+		55F6DD7A451462917FEAE44EC8D7D9E4 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA0B70BD43C71AD77033C10DBBA626 /* WindowViewController.swift */; };
+		5BE246846132C73CF7800640BD2D06EB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEBE824D18129F0B88F634C662C9E5 /* BaseView.swift */; };
+		5D061AC7DAB0E6A68E42F0177A31AB0C /* Pods-calabashCucumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A510765A550F4CE59ED9D7C17826EE /* Pods-calabashCucumber-dummy.m */; };
+		5FC4E0F4002498BC9F70E40A42A4BB14 /* MarginAdjustable+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B0E71AF25D4520349EDAABFF896AA /* MarginAdjustable+Animation.swift */; };
+		641486F50B4BF4FC4586E963C6A50EE1 /* errorIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEC5A853FD7B8CAECFD9A5123ACAC76 /* errorIconLight@2x.png */; };
+		64EFB5CBBA8A639FB9F9FDEE456039CF /* MessageViewIOS8.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC71835567E5E530E23FDD9E45E85BA /* MessageViewIOS8.xib */; };
+		6727DA252A8A359966DE041217B92DD4 /* NSBundle+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C129AED04BA838CF5F35E0CE5AAFBE74 /* NSBundle+Utils.swift */; };
+		69776B3A1BB6BEA8071C1C3CF56761F9 /* warningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D99C7F7A47D989B7A5C211B6E62BDBD /* warningIcon@2x.png */; };
+		69B41A0444DA2B25F444303B39C29002 /* errorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2AE6EBE79C505B224F6760E07D8838 /* errorIcon.png */; };
+		734AF38D8662507B11E4FAC9C784E6C0 /* successIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8BEAA896F9828DC8C7C1D22AE3B9D5 /* successIcon@3x.png */; };
+		778E52043AD55CBDC8F9EECBD44BD35B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7836BB14F50C5FC1A07F7F7EDB3C5972 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0002F87BFB0809753818873D9FF751 /* BackgroundViewable.swift */; };
+		7EB1E321BE4FCD8107931EB970961393 /* warningIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB58EB1348C32ECC36C95C4EB5B3431 /* warningIconSubtle.png */; };
+		7F3852890467ED0BD2A3455CBE4782F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7F40309761F9F9985DD2193A46BEFE80 /* CenteredView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC720FF4ACABBB33C1D29B82377E1EFB /* CenteredView.xib */; };
+		8212886B9113999659A6C1BA8B597647 /* successIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A7A48DAD591805A022AC101EC42CC6 /* successIconSubtle@2x.png */; };
+		827B02BF4C20525F575A023443A57DE6 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C021E7AD57E14E572070038B4D043E /* Array+Utils.swift */; };
+		88085962046FCB486FDA95F7BE16D9BE /* warningIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F60E71B55E5486600444138905F3B02B /* warningIcon@3x.png */; };
+		89930F2B3F637EA83CDCCAD3614ECBF5 /* warningIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF557E417E6CAA353BF91DEEFB2BBEA /* warningIconLight@3x.png */; };
+		8AF6B6928C73DD1BBF6C4008FC0E3406 /* errorIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 900087192D1CC34834BAC039A6842B59 /* errorIcon@3x.png */; };
+		8BF52DCB25CE23AC3CDCCC788482A67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8FF9A4CC1C2328151AE02A8731004075 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAECB5168BCEA5E02F06445FB8D77C27 /* Identifiable.swift */; };
+		93778E411B2BF00AAE6810D616154F1F /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91359E24A62B517FB19B4B04E16C086A /* Weak.swift */; };
+		94DB6A1B2BB9CAE84BB729849EE14357 /* warningIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818E8D952B71A6244E4E2578733EA97D /* warningIconLight@2x.png */; };
+		955E8409B86D9C8D39B172DA57FC10F9 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED5E70B3C0773E4FBAAD98F6259C28 /* Error.swift */; };
 		962C7CB842D3FAA871582F908DBF4336 /* Pods-calabashCucumber-cal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FC289942D1E608FAC3AC141D44AF8 /* Pods-calabashCucumber-cal-dummy.m */; };
+		96683084B1810158B16C96D6FC2ABED4 /* successIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F39C4EC631341D193DACA15BBDC98F /* successIconLight@3x.png */; };
+		97D6537C0FDD96480FEB2097A7322385 /* warningIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0868FC1AAD966BC4F3F4D5476CFDAB /* warningIconSubtle@2x.png */; };
+		994AD9A1374E7FA214A6BED22BC78C65 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77094D049542DE9F488647515E664FE4 /* Presenter.swift */; };
+		9BB5DA8C6A2AF65FFE21FCD3250F78EC /* errorIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06ED52B97332B65AFC6CA6286390BDF3 /* errorIconSubtle@3x.png */; };
+		A2BEAD1670AB96553ECAEF8E5B9C8EFD /* PhysicsPanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8080272170F648F753F584CDD991CFC /* PhysicsPanHandler.swift */; };
 		A3200596F9583EB5B5F3544228BD6128 /* Pods-calabashCucumber-cal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFD702DD67E74D3A51846BB92BBF2A8 /* Pods-calabashCucumber-cal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDF65CDD10B53FB06C4AA10E459C45E1 /* Pods-calabashCucumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A510765A550F4CE59ED9D7C17826EE /* Pods-calabashCucumber-dummy.m */; };
+		A542A4ECF6F5474BA2193F7A8951F457 /* infoIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E072396A372E132FEA1C52BB4A19D62 /* infoIcon@3x.png */; };
+		B3A830D47AF9AE96608D48E6A7090DCE /* SwiftMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E71840902B6F7C1C6A3CE114F3E7C84 /* SwiftMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B58279AA10D6B7B498051C2DA40AC2BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B588AA1365E795EB2080636B3A6316A1 /* MaskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71B1903F3C1F047E3BC386A7058D1F /* MaskingView.swift */; };
+		BC333E9E965721A5FE34722D3921645E /* SwiftMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96009B3F903EBE1FBD7C3D69A3F03CED /* SwiftMessages-dummy.m */; };
+		BD17C72506241E8FFC2B7DEF4BEF7805 /* infoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE72E402A8985238AC8429F01ACDE7D /* infoIcon.png */; };
+		C0D7878E4EBD5E43E12219E90CE014DC /* warningIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E4813E1CCA0C0AA07B3973889FC09 /* warningIconSubtle@3x.png */; };
+		C2FCBD5641885C3F6DC6907B1F67F178 /* successIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 800C1A310ACE1D402D68D0490EF13847 /* successIconSubtle.png */; };
+		C5BEB792A62593DEF74486A5EFCF47AD /* StatusLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = A076FA83550E8C57AD38AF8AA3B07798 /* StatusLine.xib */; };
+		D7CCC2FCF7669C388DD7813534B65FC8 /* errorIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F443A148537F7993CAA632844C99712 /* errorIconSubtle.png */; };
+		DDE185213F0EBDC640E594213BF8197F /* infoIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12020600D4D947EEFE7B18841B75CD08 /* infoIconLight@2x.png */; };
+		DDF88043AC450A1BDF5B08883F23A126 /* successIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5AE3E0069CF7CDE241CB88103A1B0F /* successIconSubtle@3x.png */; };
+		DE90D8F9A5358839F4F3794AAF3A3761 /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D1D0E523F54FBEF1F0A8DBD012E38 /* PassthroughView.swift */; };
+		DFE33C001B50BE1F7AB857D3DED6A159 /* successIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BAEE191836917C762829D1364704B12 /* successIconLight.png */; };
+		E114FD1D4801C72F82D2629DFF5476F2 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9812C782CB73681B78BE9AD99667B04A /* MessageView.xib */; };
+		EEFDC56BFB799CA62AC77ADF01A38462 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90B68A2F9A61E2A8042B04D56C04C60 /* CardView.xib */; };
+		F014892CF26AE13BF75F1F4348BC6723 /* Pods-calabashCucumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2783A2D3FAA79A15D81EE70805D04311 /* Pods-calabashCucumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4CC83FB5F6580DB436D8111EBA5111 /* MarginAdjustable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F7268AE2ADC636A7CD151C5FA2D46 /* MarginAdjustable.swift */; };
+		FE86C41A9F692C5AF13EC2E95E498FA7 /* TopBottomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D97EC9D5CB7A97DEEA0695C095438C /* TopBottomAnimation.swift */; };
+		FEF37278235826FC46574F31A04B4CF8 /* errorIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA16D90FFBF6AE493BB475EDACDB87C /* errorIconLight.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1916B60FE288A28D408174E5FE4AFA4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6872D2BE86B5DA3E8515E20B5EFB9011;
+			remoteInfo = "SwiftMessages-SwiftMessages";
+		};
+		2620450A5AF900E94AE6C8DF9D458EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC52E8E8C0A5B7F2BA46FE2293263A3;
+			remoteInfo = SwiftMessages;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		00F4036EE9D3CEB0415C102C1845BEBC /* LPWebQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebQuery.h; path = calabash.framework/Versions/A/Headers/LPWebQuery.h; sourceTree = "<group>"; };
-		028CCD3C053E39803378B87CEDAA88B5 /* LPHTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDynamicFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDynamicFileResponse.h; sourceTree = "<group>"; };
-		06D7689B457D4960C46FD7A0E9E238DC /* LPVersionRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPVersionRoute.h; path = calabash.framework/Versions/A/Headers/LPVersionRoute.h; sourceTree = "<group>"; };
-		149DF0F5A95F690452FA38D12CC9FE2C /* LPRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRoute.h; path = calabash.framework/Versions/A/Headers/LPRoute.h; sourceTree = "<group>"; };
+		014FB3BA6F8E2F486EA73F6BD95F74B2 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = SwiftMessages/Animator.swift; sourceTree = "<group>"; };
+		02BCED92AA2D984DDC1EEAD0826B3407 /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftMessages.bundle; path = "SwiftMessages-SwiftMessages.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BE56E6E9282923D80F769F5EC56F5B /* errorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIcon@2x.png"; path = "SwiftMessages/Resources/errorIcon@2x.png"; sourceTree = "<group>"; };
+		0593EEAE612A081959AB86A79953A6E0 /* PhysicsAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhysicsAnimation.swift; path = SwiftMessages/PhysicsAnimation.swift; sourceTree = "<group>"; };
+		06ED52B97332B65AFC6CA6286390BDF3 /* errorIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconSubtle@3x.png"; path = "SwiftMessages/Resources/errorIconSubtle@3x.png"; sourceTree = "<group>"; };
+		0D10ECA73B12981E3E13B160CF1FDDCF /* infoIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconSubtle@3x.png"; path = "SwiftMessages/Resources/infoIconSubtle@3x.png"; sourceTree = "<group>"; };
+		0DD510A92F77F02B68FA51A336BD3E28 /* errorIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconSubtle@2x.png"; path = "SwiftMessages/Resources/errorIconSubtle@2x.png"; sourceTree = "<group>"; };
+		10EA8D20A2369382A7EDDCD9540CC608 /* LPVersionRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPVersionRoute.h; path = calabash.framework/Versions/A/Headers/LPVersionRoute.h; sourceTree = "<group>"; };
+		12020600D4D947EEFE7B18841B75CD08 /* infoIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconLight@2x.png"; path = "SwiftMessages/Resources/infoIconLight@2x.png"; sourceTree = "<group>"; };
+		14D87A89C6FEAF20C843CFBD52EEDD38 /* MessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageView.swift; path = SwiftMessages/MessageView.swift; sourceTree = "<group>"; };
+		1E71840902B6F7C1C6A3CE114F3E7C84 /* SwiftMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-umbrella.h"; sourceTree = "<group>"; };
+		20B3E33186993A370F8DA6B0AC3CC65C /* infoIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconLight@3x.png"; path = "SwiftMessages/Resources/infoIconLight@3x.png"; sourceTree = "<group>"; };
+		271598A5DB9D327785D5FA6C4FAD4685 /* LPHTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPAsyncFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPAsyncFileResponse.h; sourceTree = "<group>"; };
 		2783A2D3FAA79A15D81EE70805D04311 /* Pods-calabashCucumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calabashCucumber-umbrella.h"; sourceTree = "<group>"; };
-		2F1C87A106E3D5F147F67839CD24A068 /* LPHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPResponse.h; sourceTree = "<group>"; };
+		279F7268AE2ADC636A7CD151C5FA2D46 /* MarginAdjustable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarginAdjustable.swift; path = SwiftMessages/MarginAdjustable.swift; sourceTree = "<group>"; };
+		2955FFF7E114B9AE4FAD4060BECFD5AD /* TabView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TabView.xib; path = SwiftMessages/Resources/TabView.xib; sourceTree = "<group>"; };
+		2A0002F87BFB0809753818873D9FF751 /* BackgroundViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundViewable.swift; path = SwiftMessages/BackgroundViewable.swift; sourceTree = "<group>"; };
+		2C8BEAA896F9828DC8C7C1D22AE3B9D5 /* successIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIcon@3x.png"; path = "SwiftMessages/Resources/successIcon@3x.png"; sourceTree = "<group>"; };
+		2CA5441D28AFC754A0ED2771DB136F5C /* LPWebViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebViewUtils.h; path = calabash.framework/Versions/A/Headers/LPWebViewUtils.h; sourceTree = "<group>"; };
+		2DC71835567E5E530E23FDD9E45E85BA /* MessageViewIOS8.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageViewIOS8.xib; path = SwiftMessages/Resources/MessageViewIOS8.xib; sourceTree = "<group>"; };
+		2FF8BB5CBE7CD339528F345ED43269E9 /* Pods_calabashCucumber_cal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calabashCucumber_cal.framework; path = "Pods-calabashCucumber-cal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC8C9B1EAAD349461E06FAD5605EEEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6FDD8D88F46BAB717ABC31121D9E3C /* infoIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconSubtle@2x.png"; path = "SwiftMessages/Resources/infoIconSubtle@2x.png"; sourceTree = "<group>"; };
+		3E072396A372E132FEA1C52BB4A19D62 /* infoIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIcon@3x.png"; path = "SwiftMessages/Resources/infoIcon@3x.png"; sourceTree = "<group>"; };
+		3E71B1903F3C1F047E3BC386A7058D1F /* MaskingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskingView.swift; path = SwiftMessages/MaskingView.swift; sourceTree = "<group>"; };
 		3EFD66AB4FC6E0DE300061042A9E46C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4339CCE5B9CB2E2FCCA3CBCE9C9400E5 /* LPRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRouter.h; path = calabash.framework/Versions/A/Headers/LPRouter.h; sourceTree = "<group>"; };
+		407E0204CE973E810B538CED8FF4003D /* AccessibleMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibleMessage.swift; path = SwiftMessages/AccessibleMessage.swift; sourceTree = "<group>"; };
 		447E84DAF4668E87643664E57E04D0F3 /* Pods-calabashCucumber-cal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calabashCucumber-cal-acknowledgements.plist"; sourceTree = "<group>"; };
 		488A05E3EA8A4ABABF43944181E20DF6 /* Pods-calabashCucumber-cal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calabashCucumber-cal-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4BB601D74698973133D27E6706C3FD9F /* Pods-calabashCucumber-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calabashCucumber-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C5FC289942D1E608FAC3AC141D44AF8 /* Pods-calabashCucumber-cal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calabashCucumber-cal-dummy.m"; sourceTree = "<group>"; };
 		4E3C3EF33F0951626887041BC591D891 /* Pods-calabashCucumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calabashCucumber.modulemap"; sourceTree = "<group>"; };
-		550A8FE4141CB800610AA06514CBF73E /* UIWebView+LPWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+LPWebView.h"; path = "calabash.framework/Versions/A/Headers/UIWebView+LPWebView.h"; sourceTree = "<group>"; };
+		4E4E4813E1CCA0C0AA07B3973889FC09 /* warningIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconSubtle@3x.png"; path = "SwiftMessages/Resources/warningIconSubtle@3x.png"; sourceTree = "<group>"; };
+		4F443A148537F7993CAA632844C99712 /* errorIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = errorIconSubtle.png; path = SwiftMessages/Resources/errorIconSubtle.png; sourceTree = "<group>"; };
+		5328A021B08675885199E4984C2B8EE5 /* successIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIcon@2x.png"; path = "SwiftMessages/Resources/successIcon@2x.png"; sourceTree = "<group>"; };
+		57605CC969D83B2C4A2160102707C033 /* PassthroughWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughWindow.swift; path = SwiftMessages/PassthroughWindow.swift; sourceTree = "<group>"; };
+		5BAEE191836917C762829D1364704B12 /* successIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = successIconLight.png; path = SwiftMessages/Resources/successIconLight.png; sourceTree = "<group>"; };
 		653D5324FFFE227BE1BB60343552CD52 /* Pods-calabashCucumber-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashCucumber-cal.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		659E917AB5CFFE85607F1B6A1EF762A1 /* CalabashServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalabashServer.h; path = calabash.framework/Versions/A/Headers/CalabashServer.h; sourceTree = "<group>"; };
+		670C9EFC9D0C9D2A023E9E2B03E99265 /* LPRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRouter.h; path = calabash.framework/Versions/A/Headers/LPRouter.h; sourceTree = "<group>"; };
+		681884A4B092E59A9BC066695E6E52DB /* successIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconLight@2x.png"; path = "SwiftMessages/Resources/successIconLight@2x.png"; sourceTree = "<group>"; };
 		6A30409DB6BCCAA2144750B75BCDF946 /* Pods-calabashCucumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashCucumber.release.xcconfig"; sourceTree = "<group>"; };
+		702E5E4B10E5EE86047A44A409229413 /* LPRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRoute.h; path = calabash.framework/Versions/A/Headers/LPRoute.h; sourceTree = "<group>"; };
+		73AEBE824D18129F0B88F634C662C9E5 /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = SwiftMessages/BaseView.swift; sourceTree = "<group>"; };
+		77094D049542DE9F488647515E664FE4 /* Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = SwiftMessages/Presenter.swift; sourceTree = "<group>"; };
+		7748F97F49E6D329D20F280BD6B8E23A /* LPHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPResponse.h; sourceTree = "<group>"; };
+		77B543AEC0EEC63FE114195C9C40DF6A /* successIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = successIcon.png; path = SwiftMessages/Resources/successIcon.png; sourceTree = "<group>"; };
+		7D0868FC1AAD966BC4F3F4D5476CFDAB /* warningIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconSubtle@2x.png"; path = "SwiftMessages/Resources/warningIconSubtle@2x.png"; sourceTree = "<group>"; };
+		7DB58EB1348C32ECC36C95C4EB5B3431 /* warningIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warningIconSubtle.png; path = SwiftMessages/Resources/warningIconSubtle.png; sourceTree = "<group>"; };
 		7DFD702DD67E74D3A51846BB92BBF2A8 /* Pods-calabashCucumber-cal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calabashCucumber-cal-umbrella.h"; sourceTree = "<group>"; };
-		7F135AC02C823BFDD210941167E0F666 /* LPWebViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebViewUtils.h; path = calabash.framework/Versions/A/Headers/LPWebViewUtils.h; sourceTree = "<group>"; };
+		800C1A310ACE1D402D68D0490EF13847 /* successIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = successIconSubtle.png; path = SwiftMessages/Resources/successIconSubtle.png; sourceTree = "<group>"; };
+		818E8D952B71A6244E4E2578733EA97D /* warningIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconLight@2x.png"; path = "SwiftMessages/Resources/warningIconLight@2x.png"; sourceTree = "<group>"; };
+		819569A8954F8AB0362A39D9F6DCD1FA /* infoIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIcon@2x.png"; path = "SwiftMessages/Resources/infoIcon@2x.png"; sourceTree = "<group>"; };
+		81C021E7AD57E14E572070038B4D043E /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "SwiftMessages/Array+Utils.swift"; sourceTree = "<group>"; };
 		81C9AD44C7E3439C1C67B02A74117822 /* Pods-calabashCucumber-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calabashCucumber-acknowledgements.markdown"; sourceTree = "<group>"; };
+		852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.xcconfig; sourceTree = "<group>"; };
+		8600750C47B6BF10273A2E80CE9475AF /* SwiftMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessages.swift; path = SwiftMessages/SwiftMessages.swift; sourceTree = "<group>"; };
+		8811F440F5DE374259C9F3C6FBAA1879 /* LPWebViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebViewProtocol.h; path = calabash.framework/Versions/A/Headers/LPWebViewProtocol.h; sourceTree = "<group>"; };
 		88A510765A550F4CE59ED9D7C17826EE /* Pods-calabashCucumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calabashCucumber-dummy.m"; sourceTree = "<group>"; };
+		88DF72D7C75927E03F835CE58122D183 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMessages.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2AB9EB2F61B3202829D86DCC7A6F3C /* Pods-calabashCucumber-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calabashCucumber-resources.sh"; sourceTree = "<group>"; };
-		8F346AB98F91946074A737C990A8CC8E /* LPWebViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebViewProtocol.h; path = calabash.framework/Versions/A/Headers/LPWebViewProtocol.h; sourceTree = "<group>"; };
-		92E8167F346600AC788A4A017B05F354 /* LPCORSResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCORSResponse.h; path = calabash.framework/Versions/A/Headers/LPCORSResponse.h; sourceTree = "<group>"; };
+		900087192D1CC34834BAC039A6842B59 /* errorIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIcon@3x.png"; path = "SwiftMessages/Resources/errorIcon@3x.png"; sourceTree = "<group>"; };
+		91359E24A62B517FB19B4B04E16C086A /* Weak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weak.swift; path = SwiftMessages/Weak.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A97102FD6A9819B63B8E912F88E0EE97 /* LPHTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPAsyncFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		93ECBD108B637AED49E6EC8EBC19C0C9 /* SwiftMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftMessages.modulemap; sourceTree = "<group>"; };
+		96009B3F903EBE1FBD7C3D69A3F03CED /* SwiftMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMessages-dummy.m"; sourceTree = "<group>"; };
+		97A77C00C415685DA31A0BB5A781FA70 /* warningIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warningIconLight.png; path = SwiftMessages/Resources/warningIconLight.png; sourceTree = "<group>"; };
+		9812C782CB73681B78BE9AD99667B04A /* MessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageView.xib; path = SwiftMessages/Resources/MessageView.xib; sourceTree = "<group>"; };
+		9D99C7F7A47D989B7A5C211B6E62BDBD /* warningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIcon@2x.png"; path = "SwiftMessages/Resources/warningIcon@2x.png"; sourceTree = "<group>"; };
+		9FA16D90FFBF6AE493BB475EDACDB87C /* errorIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = errorIconLight.png; path = SwiftMessages/Resources/errorIconLight.png; sourceTree = "<group>"; };
+		A076FA83550E8C57AD38AF8AA3B07798 /* StatusLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StatusLine.xib; path = SwiftMessages/Resources/StatusLine.xib; sourceTree = "<group>"; };
+		A09EF703DC5EB741DDB39B63B9B86B02 /* warningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warningIcon.png; path = SwiftMessages/Resources/warningIcon.png; sourceTree = "<group>"; };
+		A1F39C4EC631341D193DACA15BBDC98F /* successIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconLight@3x.png"; path = "SwiftMessages/Resources/successIconLight@3x.png"; sourceTree = "<group>"; };
+		A296E632113DE613E042B1BE3869DAE5 /* infoIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = infoIconLight.png; path = SwiftMessages/Resources/infoIconLight.png; sourceTree = "<group>"; };
+		A37F6CC8683A9DFC3ED26B0AF9283501 /* ResourceBundle-SwiftMessages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftMessages-Info.plist"; sourceTree = "<group>"; };
+		A9240FB65BA4EFD50ED51AB49526EB63 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "SwiftMessages/UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		AE5AE3E0069CF7CDE241CB88103A1B0F /* successIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconSubtle@3x.png"; path = "SwiftMessages/Resources/successIconSubtle@3x.png"; sourceTree = "<group>"; };
+		B278FAFE6F115300865B9C58551292FB /* UIWebView+LPWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+LPWebView.h"; path = "calabash.framework/Versions/A/Headers/UIWebView+LPWebView.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6EA0B70BD43C71AD77033C10DBBA626 /* WindowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowViewController.swift; path = SwiftMessages/WindowViewController.swift; sourceTree = "<group>"; };
 		B74E305C1FD8844643228EBDE944CD21 /* Pods-calabashCucumber-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calabashCucumber-frameworks.sh"; sourceTree = "<group>"; };
-		BCA8AD7E98AFDBC60301A3EF3E904607 /* CalabashServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalabashServer.h; path = calabash.framework/Versions/A/Headers/CalabashServer.h; sourceTree = "<group>"; };
+		B8080272170F648F753F584CDD991CFC /* PhysicsPanHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhysicsPanHandler.swift; path = SwiftMessages/PhysicsPanHandler.swift; sourceTree = "<group>"; };
+		BA1DD3084DAAD6FE67A3174F38E1AB8B /* LPHTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDynamicFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		BAE72E402A8985238AC8429F01ACDE7D /* infoIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = infoIcon.png; path = SwiftMessages/Resources/infoIcon.png; sourceTree = "<group>"; };
+		BAECB5168BCEA5E02F06445FB8D77C27 /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = SwiftMessages/Identifiable.swift; sourceTree = "<group>"; };
+		C129AED04BA838CF5F35E0CE5AAFBE74 /* NSBundle+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+Utils.swift"; path = "SwiftMessages/NSBundle+Utils.swift"; sourceTree = "<group>"; };
+		C2A1DC278F8452BC258613EFC52341F5 /* SwiftMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-prefix.pch"; sourceTree = "<group>"; };
+		C2DE45261CEF8CD7D5571747130A1207 /* LPHTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDataResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDataResponse.h; sourceTree = "<group>"; };
 		C58315B9E6E8B6231F3006F1DB8C8969 /* Pods-calabashCucumber-cal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calabashCucumber-cal-resources.sh"; sourceTree = "<group>"; };
-		CF05B15BE31886C4904695BFC1C3F621 /* LPHTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPFileResponse.h; sourceTree = "<group>"; };
-		CF40E2CAF6EE13A247B6EBF6CFD1AFF5 /* LPHTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDataResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDataResponse.h; sourceTree = "<group>"; };
+		C90B68A2F9A61E2A8042B04D56C04C60 /* CardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CardView.xib; path = SwiftMessages/Resources/CardView.xib; sourceTree = "<group>"; };
+		C9F74E6C44DE2402BE29A17EDE03447D /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = SwiftMessages/Theme.swift; sourceTree = "<group>"; };
+		CC720FF4ACABBB33C1D29B82377E1EFB /* CenteredView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CenteredView.xib; path = SwiftMessages/Resources/CenteredView.xib; sourceTree = "<group>"; };
 		D0790D76E48EB9C636C2FA08FAE04E8B /* Pods-calabashCucumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashCucumber.debug.xcconfig"; sourceTree = "<group>"; };
 		D0D49294CA5AB66D18343180E9A83A94 /* Pods-calabashCucumber-cal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calabashCucumber-cal-frameworks.sh"; sourceTree = "<group>"; };
-		D47C72CC8712CA09E1A5B2AD975F194B /* Pods_calabashCucumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calabashCucumber.framework; path = "Pods-calabashCucumber.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCFF2072BB9C64D9565D73F84890AFA5 /* Pods_calabashCucumber_cal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calabashCucumber_cal.framework; path = "Pods-calabashCucumber-cal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47F7C30AE19141411B051E0E1B510B9 /* LPWebQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebQuery.h; path = calabash.framework/Versions/A/Headers/LPWebQuery.h; sourceTree = "<group>"; };
+		D70C96345DE750BC49F280C6D36C6C89 /* errorIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconLight@3x.png"; path = "SwiftMessages/Resources/errorIconLight@3x.png"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9BCEF8EDCCFEB2D9ACDC2FC58C2D5F9 /* infoIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = infoIconSubtle.png; path = SwiftMessages/Resources/infoIconSubtle.png; sourceTree = "<group>"; };
+		D9D97EC9D5CB7A97DEEA0695C095438C /* TopBottomAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopBottomAnimation.swift; path = SwiftMessages/TopBottomAnimation.swift; sourceTree = "<group>"; };
 		DD0F77BD65B03ABEA628189B1A507C1A /* Pods-calabashCucumber-cal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashCucumber-cal.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2AE6EBE79C505B224F6760E07D8838 /* errorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = errorIcon.png; path = SwiftMessages/Resources/errorIcon.png; sourceTree = "<group>"; };
+		DFED5E70B3C0773E4FBAAD98F6259C28 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = SwiftMessages/Error.swift; sourceTree = "<group>"; };
+		E307B6D5F9EA2F1437B23F59ECE9472A /* Pods_calabashCucumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calabashCucumber.framework; path = "Pods-calabashCucumber.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35D1D0E523F54FBEF1F0A8DBD012E38 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = SwiftMessages/PassthroughView.swift; sourceTree = "<group>"; };
+		EAF557E417E6CAA353BF91DEEFB2BBEA /* warningIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconLight@3x.png"; path = "SwiftMessages/Resources/warningIconLight@3x.png"; sourceTree = "<group>"; };
+		EBEC5A853FD7B8CAECFD9A5123ACAC76 /* errorIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconLight@2x.png"; path = "SwiftMessages/Resources/errorIconLight@2x.png"; sourceTree = "<group>"; };
+		EE46256A682498CC87265E36FD9E58EC /* LPCORSResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCORSResponse.h; path = calabash.framework/Versions/A/Headers/LPCORSResponse.h; sourceTree = "<group>"; };
+		EF228395BDB99938F521E48ABEC3F89F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F248C853FD9E4414F8BC392A6DCA162F /* LPHTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPFileResponse.h; sourceTree = "<group>"; };
+		F35B0E71AF25D4520349EDAABFF896AA /* MarginAdjustable+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarginAdjustable+Animation.swift"; path = "SwiftMessages/MarginAdjustable+Animation.swift"; sourceTree = "<group>"; };
+		F60E71B55E5486600444138905F3B02B /* warningIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIcon@3x.png"; path = "SwiftMessages/Resources/warningIcon@3x.png"; sourceTree = "<group>"; };
+		F6A7A48DAD591805A022AC101EC42CC6 /* successIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconSubtle@2x.png"; path = "SwiftMessages/Resources/successIconSubtle@2x.png"; sourceTree = "<group>"; };
 		F8C2E080BFBBB4350402DCC1F930C3A5 /* Pods-calabashCucumber-cal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calabashCucumber-cal.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		294B644628BAE679FB7DC9FE2B1199EF /* Frameworks */ = {
+		B9F5E8327E56A3612BD8859C9C0411D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B8D55FACFCDF9EB9F67F3D354CB771 /* Foundation.framework in Frameworks */,
+				8BF52DCB25CE23AC3CDCCC788482A67B /* Foundation.framework in Frameworks */,
+				B58279AA10D6B7B498051C2DA40AC2BB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78515937F2A8574563C380348F054BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +243,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDC420B8188E7452CD659D609965DB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3852890467ED0BD2A3455CBE4782F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A9345DEB0074B9E63163E9163D9E14 /* SwiftMessages */ = {
+			isa = PBXGroup;
+			children = (
+				407E0204CE973E810B538CED8FF4003D /* AccessibleMessage.swift */,
+				014FB3BA6F8E2F486EA73F6BD95F74B2 /* Animator.swift */,
+				81C021E7AD57E14E572070038B4D043E /* Array+Utils.swift */,
+				2A0002F87BFB0809753818873D9FF751 /* BackgroundViewable.swift */,
+				73AEBE824D18129F0B88F634C662C9E5 /* BaseView.swift */,
+				DFED5E70B3C0773E4FBAAD98F6259C28 /* Error.swift */,
+				BAECB5168BCEA5E02F06445FB8D77C27 /* Identifiable.swift */,
+				279F7268AE2ADC636A7CD151C5FA2D46 /* MarginAdjustable.swift */,
+				F35B0E71AF25D4520349EDAABFF896AA /* MarginAdjustable+Animation.swift */,
+				3E71B1903F3C1F047E3BC386A7058D1F /* MaskingView.swift */,
+				14D87A89C6FEAF20C843CFBD52EEDD38 /* MessageView.swift */,
+				C129AED04BA838CF5F35E0CE5AAFBE74 /* NSBundle+Utils.swift */,
+				E35D1D0E523F54FBEF1F0A8DBD012E38 /* PassthroughView.swift */,
+				57605CC969D83B2C4A2160102707C033 /* PassthroughWindow.swift */,
+				0593EEAE612A081959AB86A79953A6E0 /* PhysicsAnimation.swift */,
+				B8080272170F648F753F584CDD991CFC /* PhysicsPanHandler.swift */,
+				77094D049542DE9F488647515E664FE4 /* Presenter.swift */,
+				8600750C47B6BF10273A2E80CE9475AF /* SwiftMessages.swift */,
+				C9F74E6C44DE2402BE29A17EDE03447D /* Theme.swift */,
+				D9D97EC9D5CB7A97DEEA0695C095438C /* TopBottomAnimation.swift */,
+				A9240FB65BA4EFD50ED51AB49526EB63 /* UIViewController+Utils.swift */,
+				91359E24A62B517FB19B4B04E16C086A /* Weak.swift */,
+				B6EA0B70BD43C71AD77033C10DBBA626 /* WindowViewController.swift */,
+				5D70B65E29D6F72416C0889F7DB45865 /* Resources */,
+				940EA96ACBA333B41BA9900D636317AF /* Support Files */,
+			);
+			name = SwiftMessages;
+			path = SwiftMessages;
+			sourceTree = "<group>";
+		};
 		35B727B603F813E27E7621A052C2F06F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,24 +296,96 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6630AD6E898187245058881A46A37207 /* Products */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D47C72CC8712CA09E1A5B2AD975F194B /* Pods_calabashCucumber.framework */,
-				DCFF2072BB9C64D9565D73F84890AFA5 /* Pods_calabashCucumber_cal.framework */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D70B65E29D6F72416C0889F7DB45865 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C90B68A2F9A61E2A8042B04D56C04C60 /* CardView.xib */,
+				CC720FF4ACABBB33C1D29B82377E1EFB /* CenteredView.xib */,
+				DF2AE6EBE79C505B224F6760E07D8838 /* errorIcon.png */,
+				02BE56E6E9282923D80F769F5EC56F5B /* errorIcon@2x.png */,
+				900087192D1CC34834BAC039A6842B59 /* errorIcon@3x.png */,
+				9FA16D90FFBF6AE493BB475EDACDB87C /* errorIconLight.png */,
+				EBEC5A853FD7B8CAECFD9A5123ACAC76 /* errorIconLight@2x.png */,
+				D70C96345DE750BC49F280C6D36C6C89 /* errorIconLight@3x.png */,
+				4F443A148537F7993CAA632844C99712 /* errorIconSubtle.png */,
+				0DD510A92F77F02B68FA51A336BD3E28 /* errorIconSubtle@2x.png */,
+				06ED52B97332B65AFC6CA6286390BDF3 /* errorIconSubtle@3x.png */,
+				BAE72E402A8985238AC8429F01ACDE7D /* infoIcon.png */,
+				819569A8954F8AB0362A39D9F6DCD1FA /* infoIcon@2x.png */,
+				3E072396A372E132FEA1C52BB4A19D62 /* infoIcon@3x.png */,
+				A296E632113DE613E042B1BE3869DAE5 /* infoIconLight.png */,
+				12020600D4D947EEFE7B18841B75CD08 /* infoIconLight@2x.png */,
+				20B3E33186993A370F8DA6B0AC3CC65C /* infoIconLight@3x.png */,
+				D9BCEF8EDCCFEB2D9ACDC2FC58C2D5F9 /* infoIconSubtle.png */,
+				3C6FDD8D88F46BAB717ABC31121D9E3C /* infoIconSubtle@2x.png */,
+				0D10ECA73B12981E3E13B160CF1FDDCF /* infoIconSubtle@3x.png */,
+				9812C782CB73681B78BE9AD99667B04A /* MessageView.xib */,
+				2DC71835567E5E530E23FDD9E45E85BA /* MessageViewIOS8.xib */,
+				A076FA83550E8C57AD38AF8AA3B07798 /* StatusLine.xib */,
+				77B543AEC0EEC63FE114195C9C40DF6A /* successIcon.png */,
+				5328A021B08675885199E4984C2B8EE5 /* successIcon@2x.png */,
+				2C8BEAA896F9828DC8C7C1D22AE3B9D5 /* successIcon@3x.png */,
+				5BAEE191836917C762829D1364704B12 /* successIconLight.png */,
+				681884A4B092E59A9BC066695E6E52DB /* successIconLight@2x.png */,
+				A1F39C4EC631341D193DACA15BBDC98F /* successIconLight@3x.png */,
+				800C1A310ACE1D402D68D0490EF13847 /* successIconSubtle.png */,
+				F6A7A48DAD591805A022AC101EC42CC6 /* successIconSubtle@2x.png */,
+				AE5AE3E0069CF7CDE241CB88103A1B0F /* successIconSubtle@3x.png */,
+				2955FFF7E114B9AE4FAD4060BECFD5AD /* TabView.xib */,
+				A09EF703DC5EB741DDB39B63B9B86B02 /* warningIcon.png */,
+				9D99C7F7A47D989B7A5C211B6E62BDBD /* warningIcon@2x.png */,
+				F60E71B55E5486600444138905F3B02B /* warningIcon@3x.png */,
+				97A77C00C415685DA31A0BB5A781FA70 /* warningIconLight.png */,
+				818E8D952B71A6244E4E2578733EA97D /* warningIconLight@2x.png */,
+				EAF557E417E6CAA353BF91DEEFB2BBEA /* warningIconLight@3x.png */,
+				7DB58EB1348C32ECC36C95C4EB5B3431 /* warningIconSubtle.png */,
+				7D0868FC1AAD966BC4F3F4D5476CFDAB /* warningIconSubtle@2x.png */,
+				4E4E4813E1CCA0C0AA07B3973889FC09 /* warningIconSubtle@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9E017D8537D8446893BC5CF44B131DC2 /* Pods */,
-				6630AD6E898187245058881A46A37207 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CB23C18F2D0025D975430D17724CAC8B /* Pods */,
+				EC12FA53CB3F121C517E94E4CBA091F6 /* Products */,
 				35B727B603F813E27E7621A052C2F06F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		940EA96ACBA333B41BA9900D636317AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF228395BDB99938F521E48ABEC3F89F /* Info.plist */,
+				A37F6CC8683A9DFC3ED26B0AF9283501 /* ResourceBundle-SwiftMessages-Info.plist */,
+				93ECBD108B637AED49E6EC8EBC19C0C9 /* SwiftMessages.modulemap */,
+				852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */,
+				96009B3F903EBE1FBD7C3D69A3F03CED /* SwiftMessages-dummy.m */,
+				C2A1DC278F8452BC258613EFC52341F5 /* SwiftMessages-prefix.pch */,
+				1E71840902B6F7C1C6A3CE114F3E7C84 /* SwiftMessages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMessages";
 			sourceTree = "<group>";
 		};
 		9ABD7CB5E6131B579F0E2654E5315B4B /* Pods-calabashCucumber-cal */ = {
@@ -123,50 +406,35 @@
 			path = "Target Support Files/Pods-calabashCucumber-cal";
 			sourceTree = "<group>";
 		};
-		9E017D8537D8446893BC5CF44B131DC2 /* Pods */ = {
+		AD088DCAA18FFBF7C8688670653636BC /* Calabash */ = {
 			isa = PBXGroup;
 			children = (
-				B564DA2725696F9B259724979663F7FE /* Calabash */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B564DA2725696F9B259724979663F7FE /* Calabash */ = {
-			isa = PBXGroup;
-			children = (
-				BCA8AD7E98AFDBC60301A3EF3E904607 /* CalabashServer.h */,
-				92E8167F346600AC788A4A017B05F354 /* LPCORSResponse.h */,
-				A97102FD6A9819B63B8E912F88E0EE97 /* LPHTTPAsyncFileResponse.h */,
-				CF40E2CAF6EE13A247B6EBF6CFD1AFF5 /* LPHTTPDataResponse.h */,
-				028CCD3C053E39803378B87CEDAA88B5 /* LPHTTPDynamicFileResponse.h */,
-				CF05B15BE31886C4904695BFC1C3F621 /* LPHTTPFileResponse.h */,
-				2F1C87A106E3D5F147F67839CD24A068 /* LPHTTPResponse.h */,
-				149DF0F5A95F690452FA38D12CC9FE2C /* LPRoute.h */,
-				4339CCE5B9CB2E2FCCA3CBCE9C9400E5 /* LPRouter.h */,
-				06D7689B457D4960C46FD7A0E9E238DC /* LPVersionRoute.h */,
-				00F4036EE9D3CEB0415C102C1845BEBC /* LPWebQuery.h */,
-				8F346AB98F91946074A737C990A8CC8E /* LPWebViewProtocol.h */,
-				7F135AC02C823BFDD210941167E0F666 /* LPWebViewUtils.h */,
-				550A8FE4141CB800610AA06514CBF73E /* UIWebView+LPWebView.h */,
+				659E917AB5CFFE85607F1B6A1EF762A1 /* CalabashServer.h */,
+				EE46256A682498CC87265E36FD9E58EC /* LPCORSResponse.h */,
+				271598A5DB9D327785D5FA6C4FAD4685 /* LPHTTPAsyncFileResponse.h */,
+				C2DE45261CEF8CD7D5571747130A1207 /* LPHTTPDataResponse.h */,
+				BA1DD3084DAAD6FE67A3174F38E1AB8B /* LPHTTPDynamicFileResponse.h */,
+				F248C853FD9E4414F8BC392A6DCA162F /* LPHTTPFileResponse.h */,
+				7748F97F49E6D329D20F280BD6B8E23A /* LPHTTPResponse.h */,
+				702E5E4B10E5EE86047A44A409229413 /* LPRoute.h */,
+				670C9EFC9D0C9D2A023E9E2B03E99265 /* LPRouter.h */,
+				10EA8D20A2369382A7EDDCD9540CC608 /* LPVersionRoute.h */,
+				D47F7C30AE19141411B051E0E1B510B9 /* LPWebQuery.h */,
+				8811F440F5DE374259C9F3C6FBAA1879 /* LPWebViewProtocol.h */,
+				2CA5441D28AFC754A0ED2771DB136F5C /* LPWebViewUtils.h */,
+				B278FAFE6F115300865B9C58551292FB /* UIWebView+LPWebView.h */,
 			);
 			name = Calabash;
 			path = Calabash;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CB23C18F2D0025D975430D17724CAC8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				AD088DCAA18FFBF7C8688670653636BC /* Calabash */,
+				13A9345DEB0074B9E63163E9163D9E14 /* SwiftMessages */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D5F89096EDAED24203252DA1C51881E6 /* Pods-calabashCucumber */ = {
@@ -187,9 +455,28 @@
 			path = "Target Support Files/Pods-calabashCucumber";
 			sourceTree = "<group>";
 		};
+		EC12FA53CB3F121C517E94E4CBA091F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E307B6D5F9EA2F1437B23F59ECE9472A /* Pods_calabashCucumber.framework */,
+				2FF8BB5CBE7CD339528F345ED43269E9 /* Pods_calabashCucumber_cal.framework */,
+				02BCED92AA2D984DDC1EEAD0826B3407 /* SwiftMessages.bundle */,
+				88DF72D7C75927E03F835CE58122D183 /* SwiftMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0FA5E6956BD4C845297041EB8F1ADB86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F014892CF26AE13BF75F1F4348BC6723 /* Pods-calabashCucumber-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		693EB7816E0D24679789F299D65ACB96 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,11 +485,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AB9DE8700D69B168A3B308032BDEF6C /* Headers */ = {
+		FAF3EB06B97894D8E3795FD618DC3F26 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66510198289B209C5C78B92EE7896AE9 /* Pods-calabashCucumber-umbrella.h in Headers */,
+				B3A830D47AF9AE96608D48E6A7090DCE /* SwiftMessages-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,24 +510,61 @@
 			);
 			name = "Pods-calabashCucumber-cal";
 			productName = "Pods-calabashCucumber-cal";
-			productReference = DCFF2072BB9C64D9565D73F84890AFA5 /* Pods_calabashCucumber_cal.framework */;
+			productReference = 2FF8BB5CBE7CD339528F345ED43269E9 /* Pods_calabashCucumber_cal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A10C87DFF1D77DA2AE32AB24EFA998C3 /* Pods-calabashCucumber */ = {
+		1C0948158DBBCB162ECBF517CC652952 /* Pods-calabashCucumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D3BD906D08430E4EAF8132695D328D /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber" */;
+			buildConfigurationList = B27F0F782EA497E415623CA377E18748 /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber" */;
 			buildPhases = (
-				2D139DA28E436F1C10F7B488D36D09DD /* Sources */,
-				294B644628BAE679FB7DC9FE2B1199EF /* Frameworks */,
-				8AB9DE8700D69B168A3B308032BDEF6C /* Headers */,
+				00E28BCA3F0B663B197C59FD533A2CDC /* Sources */,
+				EDC420B8188E7452CD659D609965DB4F /* Frameworks */,
+				0FA5E6956BD4C845297041EB8F1ADB86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561A2263C32BE6B309C89F121D450143 /* PBXTargetDependency */,
+			);
+			name = "Pods-calabashCucumber";
+			productName = "Pods-calabashCucumber";
+			productReference = E307B6D5F9EA2F1437B23F59ECE9472A /* Pods_calabashCucumber.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6872D2BE86B5DA3E8515E20B5EFB9011 /* SwiftMessages-SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C321EFDA68FDDB5F8FAF3D9EDE36E40B /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */;
+			buildPhases = (
+				DDC945226A521FCC8C6A0AC56A836413 /* Sources */,
+				C78515937F2A8574563C380348F054BD /* Frameworks */,
+				DE92878428927B72EA4FC887C6DC11C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-calabashCucumber";
-			productName = "Pods-calabashCucumber";
-			productReference = D47C72CC8712CA09E1A5B2AD975F194B /* Pods_calabashCucumber.framework */;
+			name = "SwiftMessages-SwiftMessages";
+			productName = "SwiftMessages-SwiftMessages";
+			productReference = 02BCED92AA2D984DDC1EEAD0826B3407 /* SwiftMessages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EAC52E8E8C0A5B7F2BA46FE2293263A3 /* SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A33E3AC3B3E698E0D18674843E7F95B /* Build configuration list for PBXNativeTarget "SwiftMessages" */;
+			buildPhases = (
+				85236C9512E1DDDA7BF53EEC0F080FD9 /* Sources */,
+				B9F5E8327E56A3612BD8859C9C0411D4 /* Frameworks */,
+				C8B4F7F3E3DF79681C3DE36AA9E8A7D7 /* Resources */,
+				FAF3EB06B97894D8E3795FD618DC3F26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4412BDCD794DA473658D198722366612 /* PBXTargetDependency */,
+			);
+			name = SwiftMessages;
+			productName = SwiftMessages;
+			productReference = 88DF72D7C75927E03F835CE58122D183 /* SwiftMessages.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -260,22 +584,115 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6630AD6E898187245058881A46A37207 /* Products */;
+			productRefGroup = EC12FA53CB3F121C517E94E4CBA091F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10C87DFF1D77DA2AE32AB24EFA998C3 /* Pods-calabashCucumber */,
+				1C0948158DBBCB162ECBF517CC652952 /* Pods-calabashCucumber */,
 				134BC8F07839776E839CFECE5F17C152 /* Pods-calabashCucumber-cal */,
+				EAC52E8E8C0A5B7F2BA46FE2293263A3 /* SwiftMessages */,
+				6872D2BE86B5DA3E8515E20B5EFB9011 /* SwiftMessages-SwiftMessages */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C8B4F7F3E3DF79681C3DE36AA9E8A7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0558501D9850571D13702D310511D70B /* SwiftMessages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE92878428927B72EA4FC887C6DC11C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFDC56BFB799CA62AC77ADF01A38462 /* CardView.xib in Resources */,
+				7F40309761F9F9985DD2193A46BEFE80 /* CenteredView.xib in Resources */,
+				69B41A0444DA2B25F444303B39C29002 /* errorIcon.png in Resources */,
+				1494C2893D9AB12B5E5987040AE2C355 /* errorIcon@2x.png in Resources */,
+				8AF6B6928C73DD1BBF6C4008FC0E3406 /* errorIcon@3x.png in Resources */,
+				FEF37278235826FC46574F31A04B4CF8 /* errorIconLight.png in Resources */,
+				641486F50B4BF4FC4586E963C6A50EE1 /* errorIconLight@2x.png in Resources */,
+				3BE5EC95154BB9518014156A6EC783C4 /* errorIconLight@3x.png in Resources */,
+				D7CCC2FCF7669C388DD7813534B65FC8 /* errorIconSubtle.png in Resources */,
+				498870EAB85875767C94A742E07C8EDF /* errorIconSubtle@2x.png in Resources */,
+				9BB5DA8C6A2AF65FFE21FCD3250F78EC /* errorIconSubtle@3x.png in Resources */,
+				BD17C72506241E8FFC2B7DEF4BEF7805 /* infoIcon.png in Resources */,
+				2DFFD1D1CF58D077979E86A8D9D2CC90 /* infoIcon@2x.png in Resources */,
+				A542A4ECF6F5474BA2193F7A8951F457 /* infoIcon@3x.png in Resources */,
+				0040A80B045493100253F5F8EFE3D6A7 /* infoIconLight.png in Resources */,
+				DDE185213F0EBDC640E594213BF8197F /* infoIconLight@2x.png in Resources */,
+				323F537AC208483D0B59ED0291EE0046 /* infoIconLight@3x.png in Resources */,
+				334E7BDB71A69B1B8C422D52A9F901B0 /* infoIconSubtle.png in Resources */,
+				3FD48AB45DE4BEC8EA8DC8C9144C90EE /* infoIconSubtle@2x.png in Resources */,
+				344C29278476203EB802B5A1FFD59154 /* infoIconSubtle@3x.png in Resources */,
+				E114FD1D4801C72F82D2629DFF5476F2 /* MessageView.xib in Resources */,
+				64EFB5CBBA8A639FB9F9FDEE456039CF /* MessageViewIOS8.xib in Resources */,
+				C5BEB792A62593DEF74486A5EFCF47AD /* StatusLine.xib in Resources */,
+				54F2E03E1DA63447A507C0D49E9CD6A3 /* successIcon.png in Resources */,
+				2D3AEFC212685A491057374D28B21BAD /* successIcon@2x.png in Resources */,
+				734AF38D8662507B11E4FAC9C784E6C0 /* successIcon@3x.png in Resources */,
+				DFE33C001B50BE1F7AB857D3DED6A159 /* successIconLight.png in Resources */,
+				481FA77FCFD6FAD3A38E642275E3141B /* successIconLight@2x.png in Resources */,
+				96683084B1810158B16C96D6FC2ABED4 /* successIconLight@3x.png in Resources */,
+				C2FCBD5641885C3F6DC6907B1F67F178 /* successIconSubtle.png in Resources */,
+				8212886B9113999659A6C1BA8B597647 /* successIconSubtle@2x.png in Resources */,
+				DDF88043AC450A1BDF5B08883F23A126 /* successIconSubtle@3x.png in Resources */,
+				0BC345E21DD782473AE9246ED747BAFB /* TabView.xib in Resources */,
+				36BEB1CE2AEFC23A9FA1245DF60975EA /* warningIcon.png in Resources */,
+				69776B3A1BB6BEA8071C1C3CF56761F9 /* warningIcon@2x.png in Resources */,
+				88085962046FCB486FDA95F7BE16D9BE /* warningIcon@3x.png in Resources */,
+				3CAE1FC37C4A1264F66BACC58538C8C7 /* warningIconLight.png in Resources */,
+				94DB6A1B2BB9CAE84BB729849EE14357 /* warningIconLight@2x.png in Resources */,
+				89930F2B3F637EA83CDCCAD3614ECBF5 /* warningIconLight@3x.png in Resources */,
+				7EB1E321BE4FCD8107931EB970961393 /* warningIconSubtle.png in Resources */,
+				97D6537C0FDD96480FEB2097A7322385 /* warningIconSubtle@2x.png in Resources */,
+				C0D7878E4EBD5E43E12219E90CE014DC /* warningIconSubtle@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2D139DA28E436F1C10F7B488D36D09DD /* Sources */ = {
+		00E28BCA3F0B663B197C59FD533A2CDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF65CDD10B53FB06C4AA10E459C45E1 /* Pods-calabashCucumber-dummy.m in Sources */,
+				5D061AC7DAB0E6A68E42F0177A31AB0C /* Pods-calabashCucumber-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85236C9512E1DDDA7BF53EEC0F080FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48ECC3818AE0227EDB427873034B03B8 /* AccessibleMessage.swift in Sources */,
+				17606F5BA09C9286A7E038C40FAF8568 /* Animator.swift in Sources */,
+				827B02BF4C20525F575A023443A57DE6 /* Array+Utils.swift in Sources */,
+				7836BB14F50C5FC1A07F7F7EDB3C5972 /* BackgroundViewable.swift in Sources */,
+				5BE246846132C73CF7800640BD2D06EB /* BaseView.swift in Sources */,
+				955E8409B86D9C8D39B172DA57FC10F9 /* Error.swift in Sources */,
+				8FF9A4CC1C2328151AE02A8731004075 /* Identifiable.swift in Sources */,
+				5FC4E0F4002498BC9F70E40A42A4BB14 /* MarginAdjustable+Animation.swift in Sources */,
+				FE4CC83FB5F6580DB436D8111EBA5111 /* MarginAdjustable.swift in Sources */,
+				B588AA1365E795EB2080636B3A6316A1 /* MaskingView.swift in Sources */,
+				1C35A6BB4B5C5ABE483A7AF8B568798E /* MessageView.swift in Sources */,
+				6727DA252A8A359966DE041217B92DD4 /* NSBundle+Utils.swift in Sources */,
+				DE90D8F9A5358839F4F3794AAF3A3761 /* PassthroughView.swift in Sources */,
+				344203CAFF2E1AEF58890EF6F1B97C0E /* PassthroughWindow.swift in Sources */,
+				4B4F69966BF46DE3EFD4DD64D03BF69F /* PhysicsAnimation.swift in Sources */,
+				A2BEAD1670AB96553ECAEF8E5B9C8EFD /* PhysicsPanHandler.swift in Sources */,
+				994AD9A1374E7FA214A6BED22BC78C65 /* Presenter.swift in Sources */,
+				BC333E9E965721A5FE34722D3921645E /* SwiftMessages-dummy.m in Sources */,
+				4FFAC9B5884511736B84AAE690604DDD /* SwiftMessages.swift in Sources */,
+				3749B7F6F12DF205FB6D48AA27BAD416 /* Theme.swift in Sources */,
+				FE86C41A9F692C5AF13EC2E95E498FA7 /* TopBottomAnimation.swift in Sources */,
+				17C44D965BF13BA68987D9AE9AB43521 /* UIViewController+Utils.swift in Sources */,
+				93778E411B2BF00AAE6810D616154F1F /* Weak.swift in Sources */,
+				55F6DD7A451462917FEAE44EC8D7D9E4 /* WindowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +704,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDC945226A521FCC8C6A0AC56A836413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4412BDCD794DA473658D198722366612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftMessages-SwiftMessages";
+			target = 6872D2BE86B5DA3E8515E20B5EFB9011 /* SwiftMessages-SwiftMessages */;
+			targetProxy = 1916B60FE288A28D408174E5FE4AFA4C /* PBXContainerItemProxy */;
+		};
+		561A2263C32BE6B309C89F121D450143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = EAC52E8E8C0A5B7F2BA46FE2293263A3 /* SwiftMessages */;
+			targetProxy = 2620450A5AF900E94AE6C8DF9D458EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2A7DA521B01C16CECA4C8C80A74E86BC /* Debug */ = {
@@ -320,6 +759,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39119303E7CCF5A8C41ACE1DB78FB399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -381,6 +836,72 @@
 			};
 			name = Release;
 		};
+		60613731E50AF3D5A6F737CC14FB027D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A30409DB6BCCAA2144750B75BCDF946 /* Pods-calabashCucumber.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calabashCucumber/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_calabashCucumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C9FFFC976199C10A0177B6680CB86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9E987715A9C55EBF64C5BA5AC43E9512 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 653D5324FFFE227BE1BB60343552CD52 /* Pods-calabashCucumber-cal.release.xcconfig */;
@@ -415,44 +936,26 @@
 			};
 			name = Release;
 		};
-		C7B1C43AA8F4F110AB60F79146ACBC7B /* Debug */ = {
+		CA4A05F952EA06E844798DBD72E8D752 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0790D76E48EB9C636C2FA08FAE04E8B /* Pods-calabashCucumber.debug.xcconfig */;
+			baseConfigurationReference = 852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-calabashCucumber/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_calabashCucumber;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		CB619E43C65F35B9BB007E64686331B4 /* Release */ = {
+		D44913DDD890C738C7FE1B348336C59A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A30409DB6BCCAA2144750B75BCDF946 /* Pods-calabashCucumber.release.xcconfig */;
+			baseConfigurationReference = 852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -462,19 +965,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-calabashCucumber/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_calabashCucumber;
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				PRODUCT_NAME = SwiftMessages;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -545,6 +1047,41 @@
 			};
 			name = Debug;
 		};
+		E475ED6CB6BB9BE4E34F92BABD91BAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0790D76E48EB9C636C2FA08FAE04E8B /* Pods-calabashCucumber.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calabashCucumber/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calabashCucumber/Pods-calabashCucumber.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_calabashCucumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,11 +1103,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7D3BD906D08430E4EAF8132695D328D /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber" */ = {
+		7A33E3AC3B3E698E0D18674843E7F95B /* Build configuration list for PBXNativeTarget "SwiftMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7B1C43AA8F4F110AB60F79146ACBC7B /* Debug */,
-				CB619E43C65F35B9BB007E64686331B4 /* Release */,
+				89C9FFFC976199C10A0177B6680CB86F /* Debug */,
+				D44913DDD890C738C7FE1B348336C59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27F0F782EA497E415623CA377E18748 /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E475ED6CB6BB9BE4E34F92BABD91BAC1 /* Debug */,
+				60613731E50AF3D5A6F737CC14FB027D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C321EFDA68FDDB5F8FAF3D9EDE36E40B /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39119303E7CCF5A8C41ACE1DB78FB399 /* Debug */,
+				CA4A05F952EA06E844798DBD72E8D752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
