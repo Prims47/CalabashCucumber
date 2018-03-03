@@ -16,6 +16,9 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.emailTextfield.delegate = self
+        self.passwordTextField.delegate = self
     }
 
     @IBAction func closeAction() {
@@ -74,5 +77,13 @@ class LoginViewController: UIViewController {
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
 
         return emailTest.evaluate(with: email)
+    }
+}
+
+extension LoginViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+
+        return true
     }
 }

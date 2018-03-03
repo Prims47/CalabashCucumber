@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "134BC8F07839776E839CFECE5F17C152"
+               BlueprintIdentifier = "0C7E5F9691D2B878F5032480B7858A15"
                BuildableName = "Pods_calabashCucumber_cal.framework"
                BlueprintName = "Pods-calabashCucumber-cal"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "134BC8F07839776E839CFECE5F17C152"
+            BlueprintIdentifier = "0C7E5F9691D2B878F5032480B7858A15"
             BuildableName = "Pods_calabashCucumber_cal.framework"
             BlueprintName = "Pods-calabashCucumber-cal"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -32,6 +32,7 @@
 		4FFAC9B5884511736B84AAE690604DDD /* SwiftMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8600750C47B6BF10273A2E80CE9475AF /* SwiftMessages.swift */; };
 		54F2E03E1DA63447A507C0D49E9CD6A3 /* successIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B543AEC0EEC63FE114195C9C40DF6A /* successIcon.png */; };
 		55F6DD7A451462917FEAE44EC8D7D9E4 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA0B70BD43C71AD77033C10DBBA626 /* WindowViewController.swift */; };
+		5925BA0F9C9F388D4F4CD3098DDA4B3A /* Pods-calabashCucumber-cal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFD702DD67E74D3A51846BB92BBF2A8 /* Pods-calabashCucumber-cal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE246846132C73CF7800640BD2D06EB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEBE824D18129F0B88F634C662C9E5 /* BaseView.swift */; };
 		5D061AC7DAB0E6A68E42F0177A31AB0C /* Pods-calabashCucumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A510765A550F4CE59ED9D7C17826EE /* Pods-calabashCucumber-dummy.m */; };
 		5FC4E0F4002498BC9F70E40A42A4BB14 /* MarginAdjustable+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B0E71AF25D4520349EDAABFF896AA /* MarginAdjustable+Animation.swift */; };
@@ -41,7 +42,6 @@
 		69776B3A1BB6BEA8071C1C3CF56761F9 /* warningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D99C7F7A47D989B7A5C211B6E62BDBD /* warningIcon@2x.png */; };
 		69B41A0444DA2B25F444303B39C29002 /* errorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2AE6EBE79C505B224F6760E07D8838 /* errorIcon.png */; };
 		734AF38D8662507B11E4FAC9C784E6C0 /* successIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8BEAA896F9828DC8C7C1D22AE3B9D5 /* successIcon@3x.png */; };
-		778E52043AD55CBDC8F9EECBD44BD35B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		7836BB14F50C5FC1A07F7F7EDB3C5972 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0002F87BFB0809753818873D9FF751 /* BackgroundViewable.swift */; };
 		7EB1E321BE4FCD8107931EB970961393 /* warningIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB58EB1348C32ECC36C95C4EB5B3431 /* warningIconSubtle.png */; };
 		7F3852890467ED0BD2A3455CBE4782F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
@@ -53,16 +53,16 @@
 		8AF6B6928C73DD1BBF6C4008FC0E3406 /* errorIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 900087192D1CC34834BAC039A6842B59 /* errorIcon@3x.png */; };
 		8BF52DCB25CE23AC3CDCCC788482A67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		8FF9A4CC1C2328151AE02A8731004075 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAECB5168BCEA5E02F06445FB8D77C27 /* Identifiable.swift */; };
+		90159339A26FF756F77AFF15D48CF3F0 /* Pods-calabashCucumber-cal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FC289942D1E608FAC3AC141D44AF8 /* Pods-calabashCucumber-cal-dummy.m */; };
 		93778E411B2BF00AAE6810D616154F1F /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91359E24A62B517FB19B4B04E16C086A /* Weak.swift */; };
 		94DB6A1B2BB9CAE84BB729849EE14357 /* warningIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818E8D952B71A6244E4E2578733EA97D /* warningIconLight@2x.png */; };
 		955E8409B86D9C8D39B172DA57FC10F9 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED5E70B3C0773E4FBAAD98F6259C28 /* Error.swift */; };
-		962C7CB842D3FAA871582F908DBF4336 /* Pods-calabashCucumber-cal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FC289942D1E608FAC3AC141D44AF8 /* Pods-calabashCucumber-cal-dummy.m */; };
 		96683084B1810158B16C96D6FC2ABED4 /* successIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F39C4EC631341D193DACA15BBDC98F /* successIconLight@3x.png */; };
 		97D6537C0FDD96480FEB2097A7322385 /* warningIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0868FC1AAD966BC4F3F4D5476CFDAB /* warningIconSubtle@2x.png */; };
 		994AD9A1374E7FA214A6BED22BC78C65 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77094D049542DE9F488647515E664FE4 /* Presenter.swift */; };
 		9BB5DA8C6A2AF65FFE21FCD3250F78EC /* errorIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06ED52B97332B65AFC6CA6286390BDF3 /* errorIconSubtle@3x.png */; };
+		A0EF499DCE167A7BFFD2817E34B768EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		A2BEAD1670AB96553ECAEF8E5B9C8EFD /* PhysicsPanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8080272170F648F753F584CDD991CFC /* PhysicsPanHandler.swift */; };
-		A3200596F9583EB5B5F3544228BD6128 /* Pods-calabashCucumber-cal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFD702DD67E74D3A51846BB92BBF2A8 /* Pods-calabashCucumber-cal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A542A4ECF6F5474BA2193F7A8951F457 /* infoIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E072396A372E132FEA1C52BB4A19D62 /* infoIcon@3x.png */; };
 		B3A830D47AF9AE96608D48E6A7090DCE /* SwiftMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E71840902B6F7C1C6A3CE114F3E7C84 /* SwiftMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B58279AA10D6B7B498051C2DA40AC2BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
@@ -94,6 +94,13 @@
 			remoteInfo = "SwiftMessages-SwiftMessages";
 		};
 		2620450A5AF900E94AE6C8DF9D458EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC52E8E8C0A5B7F2BA46FE2293263A3;
+			remoteInfo = SwiftMessages;
+		};
+		CF0473CFE6A54C61CEBF3248D6DB7643 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -235,11 +242,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D96EB4DAEAF234EA40D5F4C72DE09FBD /* Frameworks */ = {
+		D5203C975CB09D6B1E35EFCD1E80F174 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				778E52043AD55CBDC8F9EECBD44BD35B /* Foundation.framework in Frameworks */,
+				A0EF499DCE167A7BFFD2817E34B768EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,11 +484,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		693EB7816E0D24679789F299D65ACB96 /* Headers */ = {
+		E423E11B0B4A33CD505F03B475F8A270 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3200596F9583EB5B5F3544228BD6128 /* Pods-calabashCucumber-cal-umbrella.h in Headers */,
+				5925BA0F9C9F388D4F4CD3098DDA4B3A /* Pods-calabashCucumber-cal-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,17 +503,18 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		134BC8F07839776E839CFECE5F17C152 /* Pods-calabashCucumber-cal */ = {
+		0C7E5F9691D2B878F5032480B7858A15 /* Pods-calabashCucumber-cal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69358C155A4C8AC610C68714900B07D5 /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber-cal" */;
+			buildConfigurationList = ADD54B86D1675641C821C5B8E8E9F87D /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber-cal" */;
 			buildPhases = (
-				C60D79BE4D99439B75CA1DC416161E8B /* Sources */,
-				D96EB4DAEAF234EA40D5F4C72DE09FBD /* Frameworks */,
-				693EB7816E0D24679789F299D65ACB96 /* Headers */,
+				DACF164B6CA024A52C72AA47E53C783D /* Sources */,
+				D5203C975CB09D6B1E35EFCD1E80F174 /* Frameworks */,
+				E423E11B0B4A33CD505F03B475F8A270 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18A2EF585FFF2DCBFDDFEE7F954B5645 /* PBXTargetDependency */,
 			);
 			name = "Pods-calabashCucumber-cal";
 			productName = "Pods-calabashCucumber-cal";
@@ -589,7 +597,7 @@
 			projectRoot = "";
 			targets = (
 				1C0948158DBBCB162ECBF517CC652952 /* Pods-calabashCucumber */,
-				134BC8F07839776E839CFECE5F17C152 /* Pods-calabashCucumber-cal */,
+				0C7E5F9691D2B878F5032480B7858A15 /* Pods-calabashCucumber-cal */,
 				EAC52E8E8C0A5B7F2BA46FE2293263A3 /* SwiftMessages */,
 				6872D2BE86B5DA3E8515E20B5EFB9011 /* SwiftMessages-SwiftMessages */,
 			);
@@ -696,11 +704,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C60D79BE4D99439B75CA1DC416161E8B /* Sources */ = {
+		DACF164B6CA024A52C72AA47E53C783D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962C7CB842D3FAA871582F908DBF4336 /* Pods-calabashCucumber-cal-dummy.m in Sources */,
+				90159339A26FF756F77AFF15D48CF3F0 /* Pods-calabashCucumber-cal-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +722,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		18A2EF585FFF2DCBFDDFEE7F954B5645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = EAC52E8E8C0A5B7F2BA46FE2293263A3 /* SwiftMessages */;
+			targetProxy = CF0473CFE6A54C61CEBF3248D6DB7643 /* PBXContainerItemProxy */;
+		};
 		4412BDCD794DA473658D198722366612 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SwiftMessages-SwiftMessages";
@@ -729,39 +743,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A7DA521B01C16CECA4C8C80A74E86BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD0F77BD65B03ABEA628189B1A507C1A /* Pods-calabashCucumber-cal.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-calabashCucumber-cal/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-calabashCucumber-cal/Pods-calabashCucumber-cal.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_calabashCucumber_cal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		39119303E7CCF5A8C41ACE1DB78FB399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */;
@@ -871,6 +852,41 @@
 			};
 			name = Release;
 		};
+		69F699E390947636E527FEEDFDB7568D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653D5324FFFE227BE1BB60343552CD52 /* Pods-calabashCucumber-cal.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calabashCucumber-cal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calabashCucumber-cal/Pods-calabashCucumber-cal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_calabashCucumber_cal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		89C9FFFC976199C10A0177B6680CB86F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 852ACB225DC5428CEC19E285DE08256F /* SwiftMessages.xcconfig */;
@@ -902,9 +918,9 @@
 			};
 			name = Debug;
 		};
-		9E987715A9C55EBF64C5BA5AC43E9512 /* Release */ = {
+		A1CEC5C28FCCED7818EA5663F1757C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653D5324FFFE227BE1BB60343552CD52 /* Pods-calabashCucumber-cal.release.xcconfig */;
+			baseConfigurationReference = DD0F77BD65B03ABEA628189B1A507C1A /* Pods-calabashCucumber-cal.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -929,12 +945,13 @@
 				PRODUCT_NAME = Pods_calabashCucumber_cal;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA4A05F952EA06E844798DBD72E8D752 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1094,20 +1111,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69358C155A4C8AC610C68714900B07D5 /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber-cal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A7DA521B01C16CECA4C8C80A74E86BC /* Debug */,
-				9E987715A9C55EBF64C5BA5AC43E9512 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7A33E3AC3B3E698E0D18674843E7F95B /* Build configuration list for PBXNativeTarget "SwiftMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89C9FFFC976199C10A0177B6680CB86F /* Debug */,
 				D44913DDD890C738C7FE1B348336C59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD54B86D1675641C821C5B8E8E9F87D /* Build configuration list for PBXNativeTarget "Pods-calabashCucumber-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CEC5C28FCCED7818EA5663F1757C6A /* Debug */,
+				69F699E390947636E527FEEDFDB7568D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

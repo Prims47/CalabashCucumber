@@ -8,5 +8,6 @@ end
 target 'calabashCucumber-cal' do
   use_frameworks!
 
+  pod 'SwiftMessages'
   pod 'Calabash'
 end

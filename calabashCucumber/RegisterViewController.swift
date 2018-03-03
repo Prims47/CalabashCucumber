@@ -15,6 +15,10 @@ class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.emailTextField.delegate = self
+        self.passwordTextField.delegate = self
+        self.copyPasswordTextField.delegate = self
     }
 
     @IBAction func closeAction() {
@@ -68,5 +72,13 @@ class RegisterViewController: UIViewController {
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
 
         return emailTest.evaluate(with: email)
+    }
+}
+
+extension RegisterViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+
+        return true
     }
 }
